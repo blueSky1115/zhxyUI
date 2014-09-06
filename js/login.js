@@ -1,5 +1,13 @@
 $(document).ready(function() {
 		render();
+    //打开页面时，
+    $('#name,#password').blur(function(){
+        if($(this).val()==""){
+                   $(".number").css("border","1px solid red ");
+        }
+
+    });
+
 });
 function render(){
 	//js渲染，做一点自适应
