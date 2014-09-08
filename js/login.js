@@ -1,9 +1,13 @@
+
 $(document).ready(function() {
 		render();
+
     //打开页面时，
-    $('#name,#password').blur(function(){
+    $('#name').blur(function(){
         if($(this).val()==""){
-                   $(".number").css("border","1px solid red ");
+                alert("输入不能为空");
+                var input=$(this).get(0);
+                input.focus();
         }
 
     });
