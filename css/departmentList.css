@@ -1,0 +1,179 @@
+
+/*部门的列表*/
+.dm .news_list{
+	width: 100%;
+	height: 540px;
+
+	overflow: hidden;
+}
+.dm .department_list{
+	float: left;
+	width: 927px;
+	height: 515px;
+	overflow: hidden;
+	border: 1px solid #E4E4E4;
+	border-radius: 0.5em;
+}
+.dm .department{
+	float: left;
+	width: 100%;
+	height: 515px;
+    border:0;
+}
+.dm .department li{
+	display: block;
+	width: 927px;
+	border-bottom:1px solid #E4E4E4;
+	border-top-left-radius:0.5em;
+	border-top-right-radius: 0.5em;
+	overflow: hidden;
+}
+.dm .department li:last-child{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.dm .label{
+	display: inline-block;
+	width: 80px;
+	padding-left:8px;
+	text-align: left;
+	color:#2396CD;
+	font-size: 1.1em;
+	height:40px;
+	line-height: 40px;
+}
+
+.dm .department .list{
+	height: 82px;
+	border-top-right-radius: 0;
+	
+}
+.dm .department .list a{
+	display: block;
+	width: 927px;
+	height: 82px;
+	color:#888888;
+
+}
+.dm .list:hover{
+    cursor: pointer;
+    background-color: #F2F2F2;
+}
+ .dm .list a:hover{
+	background-color: #F2F2F2;
+}
+
+/*部门信息的每一个列表项*/
+ .dm .department .list_logo{
+	float: left;
+	padding-left:10px;
+	padding-top: 23px;
+}
+.dm  .department .detail{
+	float: left;
+	height:82px;
+	width: 810px;
+	padding-left: 8px;
+	padding-top:3px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+    line-height: normal;
+    white-space: normal;
+}
+.dm .department .title{
+    background-color: white;
+}
+.dm .department .date{
+	display: block;
+	width: 60px;
+	height: 82px;
+	line-height: 54px;
+	float: right;
+	font-size:0.7em;
+	background-color:#F2F2F2;
+}
+.dm .detail h3{
+	font-size: 1.0em;
+	font-weight: 600;
+}
+.dm .detail p{
+	width: 100%;
+	height: 59px;
+	overflow: hidden;
+	font-size: 0.8em;
+	font-weight: 200;
+}
+
+/*第二列的链接列表*/
+.dm .link_list{
+	float: left;
+	margin-left:10px;
+	height: 515px;
+	width: 240px;
+	border: 1px solid #E4E4E4;
+	border-radius: 0.5em;
+	background-color: #F1F1F1;
+}
+.dm .link_list .label{
+	width:232px;
+	background-color: white;
+	border-bottom: 1px solid #E3E3E3;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+.dm .link_list li{
+	display: block;
+	font-size: 1.1em;
+	color: white;
+	width: 100%;
+	height: 78px;
+	overflow: hidden;
+	line-height: 63px;
+}
+.dm .link_list li a{
+	display: inline-block;
+	width: 227px;
+	height: 63px;
+
+	margin-left:15px;
+	color: white;
+}
+.dm .link_list li:hover{
+	cursor: pointer;
+}
+.dm .link_list li:first-child{
+	margin-top: 10px;
+	background: url(../image/menu.png) no-repeat top;
+}
+.dm .link_list li:nth-child(2){
+	background: url(../image/fold.png) no-repeat top;
+}
+.dm .link_list li:last-child{
+	background: url(../image/unfold.png) no-repeat top;
+	height:298px;
+}
+.dm .link_title{
+    display: inline-block;
+
+    margin-left:100px;
+}
+.dm .first{
+    margin-left:80px;
+}
+/*小链接的样式*/
+.dm .link_list .small_link{
+    margin-top:20px;
+    margin-left: 28px;
+}
+.dm .link_list .small_link li{
+	width: 183px;
+	height: 32px;
+	margin-bottom: 8px;
+	background:url(../image/small_menu.png) no-repeat;
+	font-size: 0.9em;
+	line-height: 32px;
+	text-align: center;
+	color:#0587C5;
+}
+
+

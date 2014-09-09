@@ -7,18 +7,20 @@
 </head>
 <body>
 	<canvas id="canvas"></canvas>
-	<img id="logo" src="image/logo.png" alt="logo">
+	<img id="logo" src="image/login_logo.png" alt="logo">
 	<div id="content">
+        <form action="home.html" id="loginForm">
 		<div class="number">
-			<img src="image/contact.png" alt="帐号"><input type="text" placeholder="请输入学号/教师编号">
+			<img src="image/contact.png" alt="帐号"><input id="name" type="text" placeholder="请输入学号/教师编号">
 		</div>
 		<div class="password">
-			<img src="image/password.png" alt="密码"><input type="password" placeholder="请输入密码">
+			<img src="image/password.png" alt="密码"><input id="password" type="password" placeholder="请输入密码">
 		</div>
 		<ul class="button">
-			<li><input class="regist" type="submit" value="注册"></li>
-			<li><input class="login" type="submit" value="登录"></li>
+			<li><input class="regist" id="regist" type="submit" value="注册"></li>
+			<li><input class="login" id="login" type="submit" value="登录"></li>
 		</ul>
+        </form>
 	</div>
 	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="js/login.js"></script>

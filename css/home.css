@@ -1,0 +1,138 @@
+/*主体内容的包裹层*/
+#content{
+	width: 100%;
+	min-height: 540px;
+	height: auto;
+	box-shadow:1px 0 8px #C0C0C0 inset;
+	-moz-box-shadow:0px 1px 6px #333333 ; 
+	-webkit-box-shadow:0px 0px 6px #333333 ;
+
+}
+/*所在位置page*/
+.position{
+	width: 100%;
+	height: 63px;
+	line-height: 63px;
+	font-weight: 500;
+	color:#2396CD;
+	font-size: 1.3em;
+}
+.home{
+	display: inline-block;
+	width: 82px;
+	background: url(../image/home.png) no-repeat left;
+	text-align: right;
+}
+
+/*各部门的信息*/
+.news_list{
+	width: 100%;
+	height: 820px;
+	
+	overflow: hidden;
+}
+.department_list{
+	float: left;
+	width: 390px;
+	height: 820px;
+	overflow: hidden;
+}
+.department{
+	float: left;
+	width: 100%;
+	height: 260px;
+	border: 1px solid #E4E4E4;
+	border-radius: 0.5em;
+	margin-bottom: 10px;
+}
+.right{
+	margin-left: 10px;
+}
+.department li{
+	display: block;
+	width: 390px;
+	border-bottom:1px solid #E4E4E4;
+	border-top-left-radius:0.5em;
+	border-top-right-radius: 0.5em;
+}
+.department .label{
+	display: inline-block;
+	width: 80px;
+	padding-left:8px;
+	text-align: left;
+	color:#2396CD;
+	font-size: 1.1em;
+	height:40px;
+	line-height: 40px;
+}
+.department .title{
+    background-color: #E4E4E4;
+}
+.department .title img{
+	float: right;
+	padding-top: 11px;
+	padding-right:9px;
+
+}
+.department .list{
+	height: 54px;
+	
+}
+.department .list a{
+	display: block;
+	width: 390px;
+	height: 54px;
+	color:#888888;
+
+}
+
+ .list a:hover{
+	background-color: #F2F2F2;
+}
+.department li:last-child{
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+/*部门信息的每一个列表项*/
+ .department .list_logo{
+
+	float: left;
+	padding-left:10px;
+	padding-top: 10px;
+}
+ .department .detail{
+	display: block;
+	float: left;
+	height:54px;
+	line-height: 54px;
+	width: 270px;
+	padding-left: 5px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+ .department .date{
+	display: block;
+	width: 60px;
+	height: 54px;
+	line-height: 54px;
+	float: right;
+	font-size:0.7em;
+	background-color:#F2F2F2;
+}
+/*推送栏样式*/
+.news_push{
+	border: 1px solid #E4E4E4;
+	height: 804px;
+	border-radius:0.5em;
+}
+.department .blue{
+	background-color: #0486C4;
+}
+.noborder{
+	border:none;
+}
+
+.news_push li:last-child{
+	border-radius: 0;
+}

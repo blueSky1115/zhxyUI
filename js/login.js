@@ -3,11 +3,18 @@ $(document).ready(function() {
 		render();
 
     //打开页面时，
-    $('#name').blur(function(){
+    $('#name,#password').blur(function(){
         if($(this).val()==""){
                 alert("输入不能为空");
-                var input=$(this).get(0);
-                input.focus();
+        }
+
+    });
+
+    //表单验证
+    $("#loginForm").submit(function(e){
+        if($("#name").val()==""||$("#password").val()==""){
+            e.preventDefault();
+            alert("输入不能为空");
         }
 
     });

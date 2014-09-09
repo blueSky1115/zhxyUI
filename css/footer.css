@@ -1,0 +1,20 @@
+#footer{
+	width: 100%;
+	height:121px;
+	background-color: #0486C4;
+}
+.illustrate{
+	width:100%;
+	height: 121px;
+	padding-left:300px;
+	padding-right: 300px;
+	padding-top: 10px;
+}
+.illustrate p{
+	width: 100%;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	color:white;
+	font-size: 0.9em;
+}

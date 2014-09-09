@@ -1,0 +1,209 @@
+body{
+	font-family: "微软雅黑";
+}
+/*主体的布局*/
+#header{
+	width: 100%;
+	height:121px;
+	background-color: #0486C4;
+}
+.comWidth{
+	width: 1197px;
+	margin-left:300px;
+	margin-right:300px;
+}
+/*头部左侧的logo*/
+.logo{
+	float: left;
+	background: url(../image/logo.png) no-repeat left;
+	width: 401px;
+	height: 115px;
+	margin-top: 3px;
+}
+/*头部的右侧搜索框*/
+.nav_list{
+	float: right;
+	width: 360px;
+	height: 121px;
+	font-size: 12px;
+	color:white;
+	overflow: hidden;
+}
+.nav_list ul{
+	margin-top:24px;
+	overflow: hidden;
+}
+.nav_list li{
+	display: block;
+	float: left;
+	width: 70px;
+	text-align: center;
+	border-right: 1px solid white;
+}
+.nav_list li:last-child{
+	border:0;
+	text-align: left;
+	margin-left: 12px;
+}
+.nav_list li:first-child{
+	text-align: left;
+	margin-left: 12px;
+	width: 90px;
+	border: 0;
+}
+.nav_list a{
+	color: white;
+}
+.nav_list a:hover{
+	color:blue;
+	text-decoration: underline;
+}
+.search{
+	margin-top:12px;
+	width: 310px;
+	height: 37px;
+	background-color: white;
+	background: url(../image/search.png) no-repeat right;
+}
+.search input{
+	width: 267px;
+	height:100%;
+	font-size: 1.4em;
+}
+
+/*导航栏 图标列表*/
+
+.nav_icon{
+	height: 100px;
+	background-color: #FFFFFF;
+	
+}
+.nav_icon>ul{
+	width: 1110px;
+	height: 92px;
+	margin-left: 70px;
+	margin-top: 9px;
+	
+}
+.nav_icon li{
+	display: block;
+	float: left;
+	width: 65px;
+	height: 92px;
+	color: #9B9B9B;
+	text-align: center;
+	margin-right: 100px;
+}
+.nav_icon li:hover{
+	cursor: pointer;
+}
+.nav_icon li:last-child{
+	margin-right: 0;
+	position: relative;
+}
+/*更多弹框*/
+.more{
+	position: absolute;
+	top:105px;
+	left: -190px;
+	width: 300px;
+	height: 150px;
+	background-color:#1C90C9;
+	opacity: 0.8;
+	border-radius: 0.5em;
+}
+.rect{
+	position: absolute;
+	top:-10px;
+	left: 209px;
+	width: 20px;
+	height: 20px;
+	background-color: #1C90C9;
+	/*方块旋转*/
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); 	/* IE 9 */
+	-moz-transform:rotate(45deg); 	/* Firefox */
+	-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+	-o-transform:rotate(45deg); 	/* Opera */
+
+}
+.hidden{
+	position: absolute;
+	top:118px;
+	left: 268px;
+	width: 32px;
+	height: 32px;
+	border-bottom-right-radius: 0.5em;
+	background:url(../image/close.png) no-repeat center;
+	background-color: #98BBF6;
+}
+/*更多弹框中的小图标*/
+.small_icon_list{
+	margin-left:12px;
+	margin-top: 30px;
+}
+.small_icon_list li{
+	margin-right:45px;
+}
+
+/*css3 动画*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    -ms-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+
+

@@ -1,0 +1,33 @@
+/*去除一些样式的干扰*/
+
+/*去除间距*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*去除链接的下划线*/
+a{
+	text-decoration: none;
+}
+
+/*去除原生表单的样式*/
+input{
+	border:0;
+	outline: 0;
+	-webkit-appearance: none; /*针对ios端的*/
+}
+
+select{
+	border:0;
+	-webkit-appearance: none;
+}
+
+textarea{
+	resize:none;
+	outline: none;
+	-webkit-appearance: none;
+}
+/*去除ul li 原本的样式*/
+ul,li{
+	list-style: none;
+}
