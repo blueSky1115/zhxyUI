@@ -5,11 +5,18 @@ function departmentList(){
     $(".dm .list").on("click",function(){
 
         //发出请求
-        $("#content").html("正在载入内容");
+        createloading();
+        layout();
         $("#content").load("../partials/departmentArticle.html",function(){
             layout();
+            departmentArticle();
+            returnHome();
         });
     });
+
+    setTitle();
+
+
 }
 
 
