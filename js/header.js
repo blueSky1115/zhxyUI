@@ -127,10 +127,11 @@ $(document).ready(function(){
     //more按钮
     $(".title a").bind("click",function(event){
        event.preventDefault();
-        createloading();
-        layout();
+
         var index=parseInt($(this).attr("data-index"));
         if(index!=null){
+            createloading();
+            layout();
             requestList(index);
         }
     });
@@ -138,17 +139,21 @@ $(document).ready(function(){
     //列表链接到正文
     $(".list a").bind("click",function(event){
        event.preventDefault();
-        createloading();
-        layout();
+
         var index=parseInt($(this).attr("data-index"));
 
-        if(index!=null){
+        if(index!=null&&!isNaN(NaN)){
+
+            createloading();
+            layout();
             requestArticle(index);
         }
-
     });
 
     returnHome();
+
+    //测试
+    requestPush();
 
 });
 

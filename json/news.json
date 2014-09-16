@@ -1,0 +1,23 @@
+[
+    {
+        "imgSrc": "image/rsc_push.png",
+        "detail": "关于国内公务出差审批及报销相关事项的通知",
+        "date" : "下午5：00"
+    },
+    {
+        "imgSrc": "image/jwc_push.png",
+        "detail": "移动OA系统正式开通",
+        "date" : "下午5：00"
+    },
+    {
+        "imgSrc": "image/cwc_push.png",
+        "detail": "移动OA系统正式开通",
+        "date" : "下午5：00"
+    },
+    {
+        "imgSrc": "image/oa_push.png",
+        "detail": "移动OA系统正式开通",
+        "date" : "下午5：00"
+    }
+
+]
