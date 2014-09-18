@@ -1,3 +1,7 @@
+html,body{
+    height: 100%;
+}
+
 /*主体内容的包裹层*/
 #content{
 	width: 100%;
@@ -112,6 +116,22 @@
 	text-overflow:ellipsis;
 	overflow: hidden;
 }
+
+/*推送消息的样式*/
+.detail_title{
+	font-size: 1.1em;
+	font-weight: 500;
+	line-height: 30px;
+	height: 30px;
+}
+
+.detail_content{
+	height: 24px;
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 24px;
+}
+
  .department .date{
 	display: block;
 	width: 60px;
